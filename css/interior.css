@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #00000003;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999px;
+}
+header ol li .color{
+    background-color: #fff;
+}
+header ol{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 5px;
+}
+header ol li{
+    text-transform: capitalize;
+    list-style: none;
+    font-size: 25px;
+}
+header ol li a:hover{
+    transition: 1s;
+    background-color: rgba(0, 0, 128, 0.348);
+    }
+header ol li a{
+    text-decoration: wavy;
+    transition:1s;
+    color: #fff;
+    padding: 10px 10px;
+}
+.porsche{
+    display: flex;
+}
+.porsche h1{
+    font-size: 35px;
+    color:#fff;
+    font-family: 'Rubik Maps', system-ui;
+}
+.log img{
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    background-color: #fff;
+    /* margin-left: 10px; */
+    /* padding-right: 10px; */
+}
+.background{
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-image: url(../images/interior);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+}
